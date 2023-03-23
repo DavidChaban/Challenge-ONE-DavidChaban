@@ -1,0 +1,153 @@
+
+
+
+
+ 
+section#skill.skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}  
+
+  .skills__line{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.skills__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 2px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+    flex: none;
+order: 5;
+flex-grow: 0;
+    
+}
+/* section.skills__box>ul{
+    color:red;
+} */
+
+section.skills::box--ul,li,ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.skills__name{
+    display: flex;
+    flex-direction: column;
+    width: 65px;
+    height: 5px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #464646;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: -2rem;
+} 
+.skills__title{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    color: #464646;
+    font-weight: 700;
+}
+
+.skills__box ul{
+    display:flex;
+    flex-direction:column;
+}
+.skills__img{
+    margin-left: -13px;
+}
+.hobbies__img{
+    margin-left: -12px;
+}
+
+.hobbies__title{
+        display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size:30px;
+      color: #464646;
+    font-weight:bolder;
+}
+
+.hobbies__box{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 16px;
+    gap: 2px;
+    width: 176px;
+    height: 174px;
+    background: #FFFFFF;
+    flex: none;
+order: 5;
+flex-grow: 0;
+
+
+}
+
+.hobbies__line{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+
+}
+.hobbies__name{
+    display: flex;
+    flex-direction: column;
+    width: 34px;
+    height: 5px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #464646;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    
+}
+
+.hobbies__box ul{
+    display:flex;
+    flex-direction:column;
+   
+}
+/* .hobbies__box ul{
+    display: flex;
+    list-style: none;
+    margin-left: -16px;
+   
+} */
+
+
+
+
+
+

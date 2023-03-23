@@ -1,0 +1,44 @@
+/*Sección Menu*/
+
+section.menu{
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+    header{
+        display:flex;
+    
+    }
+    
+    .menu__img{
+        display:flex;
+        object-fit: scale-down;
+         width: 26px;
+        height: 6.5vh; 
+     
+    }
+    .menu__header{
+        margin-left: 2rem;
+    }
+     nav{
+        display:flex;
+        
+     }
+    /* nav--a{
+        align-items:center;
+    }  */
+     
+    .menu__list{
+        gap:30px;
+    }
+    ol, ul,li {
+        display:flex;
+        list-style: none;
+        
+    }
+    a{
+        text-decoration: none;
+        color: var(--cor-de-link);
+    }

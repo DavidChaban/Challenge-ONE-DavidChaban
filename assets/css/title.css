@@ -1,0 +1,39 @@
+/*Sección Title*/
+
+section.title{
+ 
+}
+.title__container{
+    width:52rem;
+    
+}
+
+.title__div{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: 33vh;
+    background: var(--background1);
+ }
+ .title__network{
+    gap:45px;
+    color:#464646;
+ }
+
+.title__subsection{
+    Fontfamily:Raleway;
+    flex:wrap;
+    font-Size:24px;
+    Line height: 25.83px
+    color:#464646;
+}
+.title__bio{
+    font-size:39px;
+    color:#464646;
+}
+.title__profile{
+    width: 250px; 
+    height: 250px;
+}

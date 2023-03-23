@@ -1,0 +1,37 @@
+
+/*Sección About*/
+
+section.about{
+    display:flex;
+    justify-content:center;
+    }
+    .about__title{
+        display: flex;
+        margin-right: 60.2rem;
+        font-size: 30px;
+    
+    }
+    .about__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        width: 100%;
+        font-size: 24px;
+        background-color: #EAF2FD;
+        margin: 0.67em 0;
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.9;
+        color: #464646;
+    }
+    .about__paragraph{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+        /* text-align: center; */
+        width: 68rem;
+        line-height: 40px;
+    }
+    
